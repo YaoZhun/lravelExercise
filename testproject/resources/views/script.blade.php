@@ -1,6 +1,4 @@
-<!doctype html>
 <html lang="{{ app()->getLocale() }}">
-
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,7 +21,6 @@
   <!-- Main CSS-->
   <link href="css/theme.css" rel="stylesheet" media="all">
 </head>
-
 <body class="animsition">
     {{--Jquery JS--}}
     <script src="vendor/jquery-3.2.1.min.js"></script>
