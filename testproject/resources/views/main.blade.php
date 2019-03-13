@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
-
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,7 +29,7 @@
   <div class="menu-sidebar d-none d-lg-block">
   <div class="logo">
       <a href="#">
-        <img src="images/icon/logo.png" alt="ican-logo" style="">
+        <img src="images/icon/logo.png" alt="ican-logo">
       </a>
     </div>
   <div class="page-wrapper">

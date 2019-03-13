@@ -1,4 +1,4 @@
-@extends('main')
+@include('')
 <body class="animsition">
     <div class="page-wrapper">
         <div class="page-content--bge5">
