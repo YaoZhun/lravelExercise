@@ -1,8 +1,8 @@
 @extends('script')
-<body class="animsition">
+@section('navbar')
   <header class="header-desktop">
   </header>
-  <div class="menu-sidebar d-none d-lg-block">
+  <div class="menu-sidebar d-none d-lg-block header-mobile d-block d-lg-none">
   <div class="logo">
       <a href="#">
         <img src="images/icon/logo.png" alt="ican-logo">
@@ -59,6 +59,3 @@
       </div>
     </div>
   </div>
-</body>
-
-</html>

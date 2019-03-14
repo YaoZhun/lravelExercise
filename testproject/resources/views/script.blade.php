@@ -22,6 +22,7 @@
   <link href="css/theme.css" rel="stylesheet" media="all">
 </head>
 <body class="animsition">
+    @section('navbar')
     {{--Jquery JS--}}
     <script src="vendor/jquery-3.2.1.min.js"></script>
     {{--Bootstrap JS--}}
@@ -51,6 +52,7 @@
     <script src="vendor/select2/select2.min.js"> </script>
     <!-- Main JS-->
     <script src="js/main.js"></script>
+    @section('content')
 </body>
 
 </html>

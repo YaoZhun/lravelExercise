@@ -20,3 +20,9 @@ Route::get('/login', function(){
 Route::get('/', function(){
     return view('main');
 });
+Route::get('/user',function(){
+    return view('user_index');
+});
+Route::get('/test',function(){
+    return view('user_index');
+});
