@@ -12,7 +12,6 @@
                         </div>
                         <div class="login-form">
                             <form action="" method="post">
-                                @csrf
                                 <div class="form-group">
                                     <label>帳號</label>
                                     <input class="au-input au-input--full" type="email" name="email" placeholder="Email">
